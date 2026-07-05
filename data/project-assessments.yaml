@@ -1,0 +1,283 @@
+assessments:
+  - name: Anthropic Claude for Life Sciences
+    type: "commercial AI workbench"
+    strengths: "Strong general model and enterprise life-science positioning."
+    weaknesses: "Closed commercial platform; not an open local/HPC workflow standard."
+    relation_to_opensciflow: "Demand validation and differentiation reference."
+    contact_priority: low
+  - name: NVIDIA BioNeMo Agent Toolkit
+    type: "commercial AI for drug discovery toolkit"
+    strengths: "Strong GPU/software ecosystem and enterprise credibility."
+    weaknesses: "NVIDIA-centric and heavier than an academic manifest standard."
+    relation_to_opensciflow: "Important adjacent platform; useful contrast for lightweight open design."
+    contact_priority: medium
+  - name: Google DeepMind AlphaFold
+    type: "biomolecular structure prediction platform"
+    strengths: "Landmark structural biology capability and broad adoption."
+    weaknesses: "Not a workflow/HPC orchestration or plugin metadata layer."
+    relation_to_opensciflow: "Potential workflow tool endpoint/reference."
+    contact_priority: low
+  - name: OpenAI deep research
+    type: "general research agent"
+    strengths: "Strong general research and reporting interface."
+    weaknesses: "Not focused on local scientific execution or HPC provenance."
+    relation_to_opensciflow: "Contrast point for local execution and reproducibility."
+    contact_priority: low
+  - name: Biomni
+    type: "biomedical AI agent"
+    strengths: "Directly aligned with biomedical agent workflows."
+    weaknesses: "May not solve general local/HPC plugin metadata."
+    relation_to_opensciflow: "High-value feedback target for biomedical agent interoperability."
+    contact_priority: high
+  - name: ChemCrow
+    type: "LLM chemistry agent"
+    strengths: "Clear precedent for LLMs using chemistry tools."
+    weaknesses: "Chemistry-focused; not a broad execution metadata standard."
+    relation_to_opensciflow: "Useful science-agent reference and outreach target."
+    contact_priority: high
+  - name: Coscientist
+    type: "autonomous science agent"
+    strengths: "High-profile demonstration of AI-driven experimental planning."
+    weaknesses: "Not an open workflow registry or local execution standard."
+    relation_to_opensciflow: "Position paper context; lower immediate repo collaboration fit."
+    contact_priority: medium
+  - name: SciAgents
+    type: "multi-agent scientific discovery system"
+    strengths: "Aligned with agentic scientific discovery and pyiron ecosystem."
+    weaknesses: "Scope may center on reasoning rather than plugin manifest standards."
+    relation_to_opensciflow: "Potential feedback target for scientific agent interoperability."
+    contact_priority: high
+  - name: The AI Scientist
+    type: "AI research automation system"
+    strengths: "High visibility around automated research loops."
+    weaknesses: "ML research automation differs from domain scientific execution."
+    relation_to_opensciflow: "Adjacent reference; avoid over-association."
+    contact_priority: low
+  - name: Virtual Lab
+    type: "biology multi-agent research environment"
+    strengths: "Strong AI-agent-for-biology narrative."
+    weaknesses: "Execution and local/HPC metadata integration may be limited."
+    relation_to_opensciflow: "Potential feedback target for biology research agent workflows."
+    contact_priority: medium
+  - name: Nextflow
+    type: "scientific workflow engine"
+    strengths: "Mature workflow execution with HPC/cloud portability and strong community."
+    weaknesses: "DSL and setup still create friction for new users."
+    relation_to_opensciflow: "Potential backend/interoperability target, not competitor."
+    contact_priority: high
+  - name: nf-core
+    type: "curated Nextflow workflow community"
+    strengths: "Excellent governance, templates, and community review practices."
+    weaknesses: "Mostly omics/bioinformatics pipeline focused."
+    relation_to_opensciflow: "Governance and contribution model reference."
+    contact_priority: high
+  - name: Snakemake
+    type: "scientific workflow engine"
+    strengths: "Widely used, Pythonic, reproducible, HPC-capable."
+    weaknesses: "Workflow/environment learning curve remains."
+    relation_to_opensciflow: "Potential backend/interoperability target."
+    contact_priority: high
+  - name: Galaxy
+    type: "web scientific workflow platform"
+    strengths: "Mature web workflows, training materials, and biomedical adoption."
+    weaknesses: "Heavier platform than a lightweight manifest layer."
+    relation_to_opensciflow: "Mature UX and community reference."
+    contact_priority: high
+  - name: Common Workflow Language
+    type: "portable workflow standard"
+    strengths: "Neutral standard for portable command-line workflows."
+    weaknesses: "Verbose for beginners and not AI-for-science-specific."
+    relation_to_opensciflow: "Standard to align with, not replace."
+    contact_priority: high
+  - name: Cromwell / WDL
+    type: "workflow language and execution engine"
+    strengths: "Established in genomics workflows."
+    weaknesses: "Domain/ecosystem-specific and heavier than MVP needs."
+    relation_to_opensciflow: "Interop reference for future genomics workflows."
+    contact_priority: medium
+  - name: Parsl
+    type: "Python parallel workflow system"
+    strengths: "Strong fit for Python and HPC execution."
+    weaknesses: "Less domain-specific user experience."
+    relation_to_opensciflow: "Potential execution backend."
+    contact_priority: high
+  - name: FireWorks
+    type: "high-throughput workflow manager"
+    strengths: "Proven in materials high-throughput computing."
+    weaknesses: "Older user experience and setup overhead."
+    relation_to_opensciflow: "Workflow metadata and materials reference."
+    contact_priority: medium
+  - name: Pegasus WMS
+    type: "large-scale scientific workflow system"
+    strengths: "Mature and robust for large scientific workflows."
+    weaknesses: "Too heavy for OpenSciFlow MVP."
+    relation_to_opensciflow: "Long-term HPC workflow reference."
+    contact_priority: medium
+  - name: AiiDA
+    type: "workflow and provenance platform"
+    strengths: "Strong provenance model and computational science workflows."
+    weaknesses: "Learning curve and existing plugin ecosystem complexity."
+    relation_to_opensciflow: "Key provenance design reference."
+    contact_priority: high
+  - name: Slurm
+    type: "HPC workload manager"
+    strengths: "Widely used HPC scheduler."
+    weaknesses: "Site-specific policies and configurations."
+    relation_to_opensciflow: "Core scheduler adapter target."
+    contact_priority: medium
+  - name: Open OnDemand
+    type: "HPC web portal"
+    strengths: "Practical web entry point for HPC users."
+    weaknesses: "Not an AI-for-science plugin/workflow metadata layer."
+    relation_to_opensciflow: "Deployment and HPC UX reference."
+    contact_priority: medium
+  - name: Apptainer
+    type: "HPC container runtime"
+    strengths: "HPC-friendly container execution."
+    weaknesses: "Image build and distribution remain nontrivial."
+    relation_to_opensciflow: "Preferred HPC container target."
+    contact_priority: high
+  - name: Spack
+    type: "HPC package manager"
+    strengths: "Strong scientific/HPC software packaging ecosystem."
+    weaknesses: "Solver/build complexity can be high."
+    relation_to_opensciflow: "Dependency metadata and installation reference."
+    contact_priority: high
+  - name: Bioconda
+    type: "bioinformatics package channel"
+    strengths: "Large bioinformatics package ecosystem."
+    weaknesses: "Mostly package distribution, not workflow planning."
+    relation_to_opensciflow: "Packaging model reference."
+    contact_priority: high
+  - name: BioContainers
+    type: "bioinformatics container ecosystem"
+    strengths: "Containerized execution for many bio tools."
+    weaknesses: "Focused on containers, not agent workflow metadata."
+    relation_to_opensciflow: "Container metadata and reproducibility reference."
+    contact_priority: high
+  - name: DataLad
+    type: "data management and provenance tool"
+    strengths: "Strong reproducible data management practices."
+    weaknesses: "Learning curve for casual users."
+    relation_to_opensciflow: "Artifact/data provenance inspiration."
+    contact_priority: medium
+  - name: ReproZip
+    type: "computational experiment capture tool"
+    strengths: "Direct focus on capturing and replaying computation."
+    weaknesses: "Less workflow-native and less AI-for-science-specific."
+    relation_to_opensciflow: "Run capture reference."
+    contact_priority: medium
+  - name: BioBB
+    type: "biomolecular simulation workflow building blocks"
+    strengths: "Very aligned with biomolecular workflow composition."
+    weaknesses: "Specific ecosystem and conventions."
+    relation_to_opensciflow: "Top feedback target for protein/MD workflow templates."
+    contact_priority: high
+  - name: BioSimSpace
+    type: "molecular simulation interoperability layer"
+    strengths: "Strong abstraction over molecular simulation engines."
+    weaknesses: "Setup and ecosystem learning curve."
+    relation_to_opensciflow: "Top feedback target for simulation plugin/workflow design."
+    contact_priority: high
+  - name: GROMACS
+    type: "molecular dynamics engine"
+    strengths: "Widely used and high-performance."
+    weaknesses: "Installation, input preparation, and HPC usage can be complex."
+    relation_to_opensciflow: "Core protein MD plugin target."
+    contact_priority: medium
+  - name: CHARMM-GUI
+    type: "molecular simulation setup web platform"
+    strengths: "Strong MD setup user experience."
+    weaknesses: "Hosted web flow and licensing/automation boundaries need care."
+    relation_to_opensciflow: "UX and setup workflow reference."
+    contact_priority: medium
+  - name: OpenMM
+    type: "Python molecular simulation toolkit"
+    strengths: "Python-friendly and suitable for local demos."
+    weaknesses: "Not a full workflow or agent layer."
+    relation_to_opensciflow: "MVP-friendly simulation/runtime target."
+    contact_priority: high
+  - name: MDAnalysis
+    type: "molecular dynamics trajectory analysis library"
+    strengths: "Excellent fit for RMSD/RMSF/Rg analysis demo."
+    weaknesses: "Analysis library, not a full workflow system."
+    relation_to_opensciflow: "Core MVP analysis plugin target."
+    contact_priority: high
+  - name: MDTraj
+    type: "molecular dynamics trajectory analysis library"
+    strengths: "Fast and mature trajectory analysis."
+    weaknesses: "Analysis-focused only."
+    relation_to_opensciflow: "Fallback/alternative trajectory analysis plugin."
+    contact_priority: medium
+  - name: AutoDock Vina
+    type: "molecular docking engine"
+    strengths: "Lightweight and widely used."
+    weaknesses: "Classical docking limitations and input-prep sensitivity."
+    relation_to_opensciflow: "Classical docking plugin candidate."
+    contact_priority: medium
+  - name: DiffDock
+    type: "AI molecular docking model"
+    strengths: "High AI-for-science demo value."
+    weaknesses: "Environment, GPU, and weight-management friction."
+    relation_to_opensciflow: "Example AI model plugin and high-priority feedback target."
+    contact_priority: high
+  - name: RDKit
+    type: "cheminformatics toolkit"
+    strengths: "Essential chemistry toolkit used across workflows."
+    weaknesses: "Toolkit, not a workflow layer."
+    relation_to_opensciflow: "Dependency/data-prep layer for chemistry workflows."
+    contact_priority: medium
+  - name: ColabFold
+    type: "protein structure prediction workflow"
+    strengths: "Widely used AlphaFold-style workflow."
+    weaknesses: "GPU, database, and weight setup can be complex."
+    relation_to_opensciflow: "Structure prediction plugin/template reference."
+    contact_priority: medium
+  - name: ESM / ESMFold
+    type: "protein language model"
+    strengths: "Influential protein representation and structure models."
+    weaknesses: "Model/runtime setup and licensing need careful handling."
+    relation_to_opensciflow: "Future model plugin target."
+    contact_priority: low
+  - name: Hugging Face Hub
+    type: "model and dataset hub"
+    strengths: "Strong model distribution and community ecosystem."
+    weaknesses: "Not a local/HPC scientific workflow execution layer."
+    relation_to_opensciflow: "Model hub analogy and possible metadata integration."
+    contact_priority: low
+  - name: BioImage Model Zoo
+    type: "scientific model zoo"
+    strengths: "Strong precedent for standardized scientific model descriptions."
+    weaknesses: "Bioimage-specific."
+    relation_to_opensciflow: "Top manifest-design reference and feedback target."
+    contact_priority: high
+  - name: DeepChem
+    type: "chemistry and biology ML toolkit"
+    strengths: "Broad drug discovery and chemistry ML toolkit."
+    weaknesses: "Not primarily workflow/HPC metadata infrastructure."
+    relation_to_opensciflow: "Potential plugin source and related toolkit."
+    contact_priority: medium
+  - name: atomate2
+    type: "materials workflow library"
+    strengths: "Strong domain workflow library in materials science."
+    weaknesses: "Materials-specific and not first-phase protein MVP."
+    relation_to_opensciflow: "Future multi-domain workflow expansion target."
+    contact_priority: medium
+  - name: pymatgen
+    type: "materials analysis toolkit"
+    strengths: "Core Python toolkit in materials science."
+    weaknesses: "Toolkit rather than workflow/agent layer."
+    relation_to_opensciflow: "Future materials plugin dependency/reference."
+    contact_priority: low
+  - name: ASE
+    type: "atomistic simulation environment"
+    strengths: "Widely used for atomistic setup/run/analyze workflows."
+    weaknesses: "Not AI-agent or manifest focused."
+    relation_to_opensciflow: "Future atomistic workflow integration target."
+    contact_priority: medium
+  - name: MatGL
+    type: "materials graph learning library"
+    strengths: "Good AI-for-materials example."
+    weaknesses: "Domain-specific and later-stage for OpenSciFlow."
+    relation_to_opensciflow: "Future AI materials plugin example."
+    contact_priority: low

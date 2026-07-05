@@ -34,6 +34,20 @@ data/projects.yaml
 
 The current seed list includes 40+ related projects across agents, workflow systems, molecular simulation, HPC, packaging, reproducibility, model hubs, chemistry, and materials science.
 
+Detailed assessment metadata is in:
+
+```text
+data/project-assessments.yaml
+```
+
+Assessment fields include:
+
+- `type`
+- `strengths`
+- `weaknesses`
+- `relation_to_opensciflow`
+- `contact_priority`
+
 ## Inclusion criteria
 
 Projects should have at least one of:
@@ -65,9 +79,14 @@ If your project is listed inaccurately, please open an issue with:
 - BioImage Model Zoo maintainers
 - DiffDock / ChemCrow / Biomni-style model or agent authors
 
+## Contact priority definition
+
+- `high`: ask for correction or focused feedback in the first outreach wave.
+- `medium`: track for second-wave feedback or domain expansion.
+- `low`: cite as context or analogy; do not ask for early collaboration.
+
 ## Start here
 
 - Project metadata: `data/projects.yaml`
 - First issue list: `ISSUES.md`
 - First milestone: `MILESTONES.md`
-
