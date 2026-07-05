@@ -1,0 +1,82 @@
+projects:
+  - name: Nextflow
+    category: workflow-engine
+    url: https://www.nextflow.io/
+    relation: Potential workflow backend/interoperability target.
+  - name: Snakemake
+    category: workflow-engine
+    url: https://snakemake.github.io/
+    relation: Potential workflow backend/interoperability target.
+  - name: Galaxy
+    category: workflow-platform
+    url: https://galaxyproject.org/
+    relation: Mature biomedical workflow platform and governance reference.
+  - name: Common Workflow Language
+    category: workflow-standard
+    url: https://www.commonwl.org/
+    relation: Portable workflow standard to align with.
+  - name: AiiDA
+    category: provenance-workflow
+    url: https://www.aiida.net/
+    relation: Provenance model reference.
+  - name: Parsl
+    category: hpc-workflow
+    url: https://parsl-project.org/
+    relation: Python/HPC execution backend candidate.
+  - name: Bioconda
+    category: package-management
+    url: https://bioconda.github.io/
+    relation: Package ecosystem reference.
+  - name: BioContainers
+    category: containers
+    url: https://biocontainers.pro/
+    relation: Container ecosystem reference.
+  - name: Apptainer
+    category: hpc-containers
+    url: https://apptainer.org/
+    relation: Recommended HPC container runtime.
+  - name: Spack
+    category: hpc-packaging
+    url: https://spack.io/
+    relation: HPC package manager reference.
+  - name: MDAnalysis
+    category: molecular-dynamics-analysis
+    url: https://www.mdanalysis.org/
+    relation: Core MVP trajectory analysis tool.
+  - name: GROMACS
+    category: molecular-dynamics
+    url: https://www.gromacs.org/
+    relation: Core protein MD plugin target.
+  - name: OpenMM
+    category: molecular-dynamics
+    url: https://openmm.org/
+    relation: Python-friendly simulation toolkit.
+  - name: BioBB
+    category: biomolecular-workflows
+    url: https://biobb.github.io/
+    relation: High-priority related project for biomolecular workflows.
+  - name: BioSimSpace
+    category: biomolecular-workflows
+    url: https://biosimspace.org/
+    relation: Molecular simulation interoperability reference.
+  - name: DiffDock
+    category: ai-docking
+    url: https://github.com/gcorso/DiffDock
+    relation: Example AI docking plugin.
+  - name: ChemCrow
+    category: science-agent
+    url: https://github.com/ur-whitelab/chemcrow
+    relation: Science-agent precedent in chemistry.
+  - name: BioImage Model Zoo
+    category: model-zoo
+    url: https://bioimage.io/
+    relation: Important manifest/model metadata precedent.
+  - name: Hugging Face Hub
+    category: model-hub
+    url: https://huggingface.co/docs/hub/index
+    relation: Model hub analogy and integration target.
+  - name: DataLad
+    category: reproducibility
+    url: https://www.datalad.org/
+    relation: Data/provenance reference.
+
