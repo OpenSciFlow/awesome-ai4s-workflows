@@ -4,7 +4,13 @@ Curated landscape of AI for Science agents, workflow engines, local/HPC executio
 
 ## Why this exists
 
-AI for Science tools are growing quickly, but researchers still struggle with environments, dependencies, HPC deployment, workflow orchestration, citation, and reproducibility. This list maps existing projects so OpenSciFlow can interoperate with them rather than replace them.
+AI for Science tools are growing quickly, but researchers still struggle with environments, dependencies, HPC deployment, workflow orchestration, citation, and reproducibility.
+
+OpenSciFlow does **not** aim to replace existing tools. This list maps the ecosystem so we can interoperate with established projects and identify practical metadata/workflow gaps.
+
+## Status
+
+Early curated draft. Project descriptions may be incomplete. Maintainers of listed projects are welcome to correct entries.
 
 ## Categories
 
@@ -17,6 +23,16 @@ AI for Science tools are growing quickly, but researchers still struggle with en
 - Model hubs and model zoos
 - Reproducibility and provenance tools
 - Materials and chemistry workflow tools
+
+## Data
+
+The machine-readable seed list is in:
+
+```text
+data/projects.yaml
+```
+
+The current seed list includes 40+ related projects across agents, workflow systems, molecular simulation, HPC, packaging, reproducibility, model hubs, chemistry, and materials science.
 
 ## Inclusion criteria
 
@@ -31,6 +47,23 @@ Projects should have at least one of:
 ## Accuracy policy
 
 Listed projects are related projects only. OpenSciFlow does not claim partnership unless explicitly approved by project maintainers.
+
+If your project is listed inaccurately, please open an issue with:
+
+- project name;
+- corrected description;
+- preferred citation or documentation link;
+- whether you want the entry revised or removed.
+
+## High-priority feedback targets
+
+- BioBB / BioSimSpace maintainers
+- MDAnalysis / MDTraj contributors
+- OpenMM / GROMACS workflow authors
+- Nextflow / Snakemake / Galaxy / nf-core community members
+- AiiDA / Parsl / FireWorks workflow experts
+- BioImage Model Zoo maintainers
+- DiffDock / ChemCrow / Biomni-style model or agent authors
 
 ## Start here
 
