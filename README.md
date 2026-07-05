@@ -14,15 +14,15 @@ Early curated draft. Project descriptions may be incomplete. Maintainers of list
 
 ## Categories
 
-- AI for Science agents
-- Scientific workflow engines
-- Computational biology workflow platforms
-- Molecular simulation and analysis tools
-- HPC and local execution tools
-- Package/container systems
-- Model hubs and model zoos
-- Reproducibility and provenance tools
-- Materials and chemistry workflow tools
+- [AI for Science agents](categories/agents.md)
+- [Scientific workflow engines](categories/workflow-engines.md)
+- [Computational biology and molecular simulation workflows](categories/bio-molecular-workflows.md)
+- [HPC and local execution tools](categories/hpc-local-execution.md)
+- [Package and container systems](categories/package-containers.md)
+- [Model hubs and model zoos](categories/model-hubs.md)
+- [Reproducibility and provenance tools](categories/reproducibility.md)
+- [Chemistry and materials workflow tools](categories/chemistry-materials.md)
+- [中文摘要](zh/README.md)
 
 ## Data
 
@@ -88,5 +88,8 @@ If your project is listed inaccurately, please open an issue with:
 ## Start here
 
 - Project metadata: `data/projects.yaml`
+- Detailed assessments: `data/project-assessments.yaml`
+- Category pages: `categories/`
+- Chinese summary: `zh/README.md`
 - First issue list: `ISSUES.md`
 - First milestone: `MILESTONES.md`
