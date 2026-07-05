@@ -27,7 +27,7 @@ projects:
   - name: ChemCrow
     category: science-agent
     domain: chemistry
-    url: https://github.com/ur-whitelab/chemcrow
+    url: https://github.com/ur-whitelab/chemcrow-public
     relation: "Science-agent precedent in chemistry."
   - name: Coscientist
     category: science-agent
