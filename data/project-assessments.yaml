@@ -23,6 +23,12 @@ assessments:
     weaknesses: "GPU, database, model weight, and environment requirements can be heavy."
     relation_to_opensciflow: "Good structure-prediction manifest reference after the first MD-analysis MVP."
     contact_priority: medium
+  - name: Uni-Fold
+    type: "protein structure prediction platform"
+    strengths: "Open platform for developing protein models beyond AlphaFold."
+    weaknesses: "Older activity profile than newer biomolecular foundation model repositories."
+    relation_to_opensciflow: "Useful structure-prediction metadata and environment-reference target."
+    contact_priority: medium
   - name: Boltz
     type: "biomolecular interaction structure model"
     strengths: "Modern open biomolecular structure/interaction model with active repository."
@@ -34,6 +40,18 @@ assessments:
     strengths: "Open model repository and clear relevance to biomolecular structure workflows."
     weaknesses: "Requires careful handling of weights, citations, inputs, and result limitations."
     relation_to_opensciflow: "Useful comparison target for structure-model manifest fields."
+    contact_priority: medium
+  - name: Protenix
+    type: "biomolecular structure prediction model"
+    strengths: "Active open repository for high-accuracy biomolecular structure prediction."
+    weaknesses: "Model weights, input conventions, benchmark claims, and execution requirements need careful metadata."
+    relation_to_opensciflow: "Good candidate for AlphaFold3-style structure workflow manifest work."
+    contact_priority: medium
+  - name: RoseTTAFold-All-Atom
+    type: "all-atom biomolecular modeling model"
+    strengths: "Important all-atom biomolecular modeling reference from the RoseTTAFold ecosystem."
+    weaknesses: "License, setup, and complex input/output assumptions need careful handling."
+    relation_to_opensciflow: "Useful target for complex structure-model input/output metadata."
     contact_priority: medium
   - name: OpenAI deep research
     type: "general research agent"
@@ -251,11 +269,41 @@ assessments:
     weaknesses: "Designed sequences require structural and experimental validation; not a standalone proof of function."
     relation_to_opensciflow: "Good future example for sequence-design manifest and report limitations."
     contact_priority: medium
+  - name: LigandMPNN
+    type: "ligand-aware protein sequence design model"
+    strengths: "Extends sequence design toward protein-ligand and fixed-backbone design settings."
+    weaknesses: "Design outputs need strong constraints and experimental/structural validation."
+    relation_to_opensciflow: "Future model manifest target for constrained protein design workflows."
+    contact_priority: medium
   - name: RDKit
     type: "cheminformatics toolkit"
     strengths: "Essential chemistry toolkit used across workflows."
     weaknesses: "Toolkit, not a workflow layer."
     relation_to_opensciflow: "Dependency/data-prep layer for chemistry workflows."
+    contact_priority: medium
+  - name: GNINA
+    type: "deep-learning molecular docking framework"
+    strengths: "Relevant AI docking framework with active repository and command-line workflow potential."
+    weaknesses: "Docking outputs can be overinterpreted; environment/GPU setup and scoring interpretation need care."
+    relation_to_opensciflow: "Useful comparison target for docking model manifests."
+    contact_priority: medium
+  - name: EquiBind
+    type: "geometric deep-learning docking model"
+    strengths: "Clear protein-ligand pose prediction model and relevant docking comparison point."
+    weaknesses: "Research-code assumptions and model applicability limits need explicit warnings."
+    relation_to_opensciflow: "Future docking-model manifest and landscape reference."
+    contact_priority: low
+  - name: TorchDrug
+    type: "drug-discovery machine-learning platform"
+    strengths: "Broad ML toolkit for drug discovery tasks."
+    weaknesses: "Toolkit scope is broad and may not map to one plugin manifest."
+    relation_to_opensciflow: "Useful model/toolkit metadata reference."
+    contact_priority: low
+  - name: GT4SD
+    type: "generative toolkit for scientific discovery"
+    strengths: "Directly relevant to generative model registries and scientific hypothesis generation."
+    weaknesses: "Broad toolkit; exact model/runtime boundaries may vary by algorithm."
+    relation_to_opensciflow: "Useful reference for generative model metadata and workflow boundaries."
     contact_priority: medium
   - name: ColabFold
     type: "protein structure prediction workflow"
@@ -310,6 +358,30 @@ assessments:
     strengths: "Important AI-for-materials model family and atomistic inference target."
     weaknesses: "Scientific validity depends on training domain, model choice, and uncertainty handling."
     relation_to_opensciflow: "Future materials model manifest target for weights, device, and applicability metadata."
+    contact_priority: medium
+  - name: CHGNet
+    type: "pretrained graph neural network interatomic potential"
+    strengths: "Practical pretrained model for charge-informed atomistic modeling."
+    weaknesses: "Applicability depends on training domain, element coverage, and target property."
+    relation_to_opensciflow: "Strong candidate for atomistic model manifest fields."
+    contact_priority: medium
+  - name: M3GNet
+    type: "materials graph network"
+    strengths: "Important predecessor for graph-network materials modeling."
+    weaknesses: "Repository is archived; better treated as historical/legacy context."
+    relation_to_opensciflow: "Historical reference for materials model metadata and migration to newer tools."
+    contact_priority: low
+  - name: MatterGen
+    type: "generative inorganic materials model"
+    strengths: "Active generative materials model with clear workflow and model-weight relevance."
+    weaknesses: "Generated materials require validation; property conditioning and synthesis feasibility need boundaries."
+    relation_to_opensciflow: "Future generative-materials workflow and safety-boundary reference."
+    contact_priority: medium
+  - name: FAIR-Chem
+    type: "chemistry and materials machine-learning library"
+    strengths: "Broad chemistry/materials ML methods library with active repository."
+    weaknesses: "Library/ecosystem scope is broad and may need multiple manifests rather than one."
+    relation_to_opensciflow: "Useful broad AI chemistry/materials model ecosystem reference."
     contact_priority: medium
   - name: MatGL
     type: "materials graph learning library"

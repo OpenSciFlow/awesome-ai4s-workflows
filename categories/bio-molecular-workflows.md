@@ -16,10 +16,14 @@ The first reference demo is a protein molecular dynamics stability analysis work
 | ColabFold | Protein structure workflow | Structure prediction plugin/template reference | Medium |
 | ESM / ESMFold | Protein language model | Future model plugin target | Low |
 | OpenFold | AlphaFold2-style implementation | Structure-prediction manifest reference | Medium |
+| Uni-Fold | Protein structure prediction platform | Structure-prediction metadata reference | Medium |
 | Boltz | Biomolecular interaction model | Model-focused manifest candidate | Medium |
 | Chai-1 | Biomolecular structure model | Structure-model metadata comparison target | Medium |
+| Protenix | Biomolecular structure prediction model | AlphaFold3-style workflow metadata reference | Medium |
+| RoseTTAFold-All-Atom | All-atom biomolecular modeling model | Complex input/output and license metadata reference | Medium |
 | RFdiffusion | Protein backbone generation model | Future protein-design workflow reference | Medium |
 | ProteinMPNN | Protein sequence design model | Future sequence-design plugin candidate | Medium |
+| LigandMPNN | Ligand-aware protein design model | Future constrained design manifest target | Medium |
 
 ## Open questions
 

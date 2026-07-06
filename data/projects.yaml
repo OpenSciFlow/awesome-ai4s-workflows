@@ -19,6 +19,11 @@ projects:
     domain: structural-biology
     url: https://github.com/aqlaboratory/openfold
     relation: "Open AlphaFold2-style implementation; useful structure-prediction manifest reference."
+  - name: Uni-Fold
+    category: structure-prediction
+    domain: structural-biology
+    url: https://github.com/dptech-corp/Uni-Fold
+    relation: "Open platform for protein models beyond AlphaFold; useful structure-prediction metadata reference."
   - name: Boltz
     category: biomolecular-structure-model
     domain: structural-biology
@@ -29,6 +34,16 @@ projects:
     domain: structural-biology
     url: https://github.com/chaidiscovery/chai-lab
     relation: "Open biomolecular structure prediction model; useful comparison point for model-weight and citation metadata."
+  - name: Protenix
+    category: biomolecular-structure-model
+    domain: structural-biology
+    url: https://github.com/bytedance/Protenix
+    relation: "Open biomolecular structure prediction model; useful comparison target for AlphaFold3-style workflow metadata."
+  - name: RoseTTAFold-All-Atom
+    category: biomolecular-structure-model
+    domain: structural-biology
+    url: https://github.com/baker-laboratory/RoseTTAFold-All-Atom
+    relation: "All-atom biomolecular modeling reference; useful target for complex input/output and license metadata."
   - name: OpenAI deep research
     category: general-research-agent
     domain: general-research
@@ -209,11 +224,36 @@ projects:
     domain: protein-design
     url: https://github.com/dauparas/ProteinMPNN
     relation: "Protein sequence design model; compact candidate for a future plugin manifest and workflow template."
+  - name: LigandMPNN
+    category: protein-design-model
+    domain: protein-design
+    url: https://github.com/dauparas/LigandMPNN
+    relation: "Ligand-aware protein sequence design model; future manifest target for protein-ligand design constraints."
   - name: RDKit
     category: cheminformatics
     domain: chemistry
     url: https://www.rdkit.org/
     relation: "Core chemistry toolkit and dependency for many workflows."
+  - name: GNINA
+    category: ai-docking
+    domain: molecular-docking
+    url: https://github.com/gnina/gnina
+    relation: "Deep-learning molecular docking framework; useful comparison target for docking manifest fields."
+  - name: EquiBind
+    category: ai-docking
+    domain: molecular-docking
+    url: https://github.com/HannesStark/EquiBind
+    relation: "Geometric deep-learning protein-ligand binding pose model; useful docking-model metadata reference."
+  - name: TorchDrug
+    category: chemistry-biology-ml
+    domain: drug-discovery
+    url: https://github.com/DeepGraphLearning/torchdrug
+    relation: "Drug-discovery ML platform; useful model/toolkit metadata reference."
+  - name: GT4SD
+    category: generative-science-models
+    domain: scientific-discovery
+    url: https://github.com/GT4SD/gt4sd-core
+    relation: "Generative Toolkit for Scientific Discovery; useful reference for generative model registries and workflow metadata."
   - name: ColabFold
     category: protein-structure
     domain: structure-prediction
@@ -259,6 +299,26 @@ projects:
     domain: materials-science
     url: https://github.com/ACEsuit/mace
     relation: "Machine-learning interatomic potential; useful future manifest target for model weights and atomistic inference."
+  - name: CHGNet
+    category: materials-ai
+    domain: materials-science
+    url: https://github.com/CederGroupHub/chgnet
+    relation: "Pretrained charge-informed graph neural network potential; useful atomistic-model manifest target."
+  - name: M3GNet
+    category: materials-ai
+    domain: materials-science
+    url: https://github.com/materialyzeai/m3gnet
+    relation: "Materials graph network and legacy DFT-surrogate reference; useful historical model metadata target."
+  - name: MatterGen
+    category: generative-materials-model
+    domain: materials-science
+    url: https://github.com/microsoft/mattergen
+    relation: "Generative model for inorganic materials design; useful future workflow and safety-boundary reference."
+  - name: FAIR-Chem
+    category: chemistry-materials-ml
+    domain: chemistry, materials-science
+    url: https://github.com/facebookresearch/fairchem
+    relation: "Machine-learning methods library for chemistry/materials; useful broad model ecosystem reference."
   - name: MatGL
     category: materials-ai
     domain: materials-science

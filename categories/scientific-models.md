@@ -10,19 +10,31 @@ These entries are related projects only. OpenSciFlow does not claim partnership 
 |---|---|---|---|
 | Google DeepMind AlphaFold | Biomolecular structure prediction platform | Landmark reference for structure-prediction workflows | Low |
 | OpenFold | Open AlphaFold2-style implementation | Structure-prediction manifest reference | Medium |
+| Uni-Fold | Protein structure prediction platform | Structure-prediction metadata reference | Medium |
 | ColabFold | Protein structure workflow | Structure prediction workflow/plugin reference | Medium |
 | ESM / ESMFold | Protein language model and structure model | Protein model metadata reference; repository is archived but historically important | Low |
 | Boltz | Biomolecular interaction structure model | Strong model-focused manifest candidate | Medium |
 | Chai-1 | Biomolecular structure prediction model | Useful comparison target for model-weight and citation metadata | Medium |
+| Protenix | Biomolecular structure prediction model | AlphaFold3-style workflow metadata reference | Medium |
+| RoseTTAFold-All-Atom | All-atom biomolecular modeling model | Complex input/output and license metadata reference | Medium |
 | RFdiffusion | Protein backbone generation/design model | Future protein-design workflow and safety-boundary reference | Medium |
 | ProteinMPNN | Protein sequence design model | Compact future sequence-design plugin candidate | Medium |
+| LigandMPNN | Ligand-aware protein sequence design model | Future constrained design manifest target | Medium |
 
 ## Docking, chemistry, and materials models
 
 | Project | Type | Relation to OpenSciFlow | Contact priority |
 |---|---|---|---|
 | DiffDock | AI molecular docking model | Example AI model plugin and feedback target | High |
+| GNINA | Deep-learning molecular docking framework | Docking manifest comparison target | Medium |
+| EquiBind | Geometric deep-learning docking model | Docking-model metadata reference | Low |
+| TorchDrug | Drug-discovery machine-learning platform | Model/toolkit metadata reference | Low |
+| GT4SD | Generative Toolkit for Scientific Discovery | Generative model registry/workflow metadata reference | Medium |
 | MACE | Machine-learning interatomic potential | Future materials model manifest target | Medium |
+| CHGNet | Charge-informed graph neural network potential | Atomistic model manifest candidate | Medium |
+| M3GNet | Materials graph network | Archived/historical materials model metadata reference | Low |
+| MatterGen | Generative inorganic materials model | Future generative-materials workflow reference | Medium |
+| FAIR-Chem | Chemistry/materials machine-learning library | Broad model ecosystem reference | Medium |
 | MatGL | Materials graph learning library | Future AI materials plugin example | Low |
 
 ## Model metadata fields to track
