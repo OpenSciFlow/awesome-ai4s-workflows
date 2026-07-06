@@ -44,7 +44,11 @@ These entries are related projects only. OpenSciFlow does not claim partnership 
 | GuacaMol | Generative chemistry benchmark | Evaluation metadata reference | Low |
 | MolBART | Molecular language model | Archived historical molecular-language-model reference | Low |
 | Recursion GFlowNet | GFlowNet library for graph and molecular data | Generative molecular workflow reference | Medium |
+| Uni-Mol | 3D molecular pretraining and downstream modeling framework | Molecular representation, docking/property, and model-weight metadata reference | Medium |
+| Chemprop | Message-passing neural network package for molecular property prediction | Molecular property workflow and citation metadata reference | Medium |
 | MACE | Machine-learning interatomic potential | Future materials model manifest target | Medium |
+| NequIP | E(3)-equivariant interatomic potential framework | Atomistic model training/inference and HPC metadata reference | Medium |
+| Allegro | Scalable equivariant interatomic potential model within the NequIP ecosystem | Large-scale atomistic simulation and LAMMPS/ASE integration metadata reference | Medium |
 | MatterSim | Deep learning atomistic model | Future atomistic model manifest candidate | Medium |
 | AI2BMD | AI-powered ab initio biomolecular dynamics simulation | Future biomolecular dynamics workflow reference | Medium |
 | JMP | Atomic property prediction model | Archived historical atomistic model reference | Low |

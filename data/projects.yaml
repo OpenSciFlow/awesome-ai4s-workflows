@@ -394,3 +394,23 @@ projects:
     domain: materials-science
     url: https://github.com/materialsvirtuallab/matgl
     relation: "Future AI-for-materials plugin example."
+  - name: Uni-Mol
+    category: molecular-representation-model
+    domain: chemistry, molecular-modeling
+    url: https://github.com/dptech-corp/Uni-Mol
+    relation: "3D molecular pretraining and downstream modeling framework; useful manifest target for model weights, docking/property workflows, and citation metadata."
+  - name: Chemprop
+    category: molecular-property-prediction
+    domain: chemistry, molecular-ml
+    url: https://github.com/chemprop/chemprop
+    relation: "Message-passing neural network package for molecular property prediction; useful property-prediction workflow and environment metadata target."
+  - name: NequIP
+    category: atomistic-potential-model
+    domain: materials-science, atomistic-simulation
+    url: https://github.com/mir-group/nequip
+    relation: "E(3)-equivariant interatomic potential framework; useful atomistic model training/inference and HPC metadata reference."
+  - name: Allegro
+    category: atomistic-potential-model
+    domain: materials-science, atomistic-simulation
+    url: https://github.com/mir-group/allegro
+    relation: "Scalable equivariant interatomic potential model in the NequIP ecosystem; useful LAMMPS/ASE and large-scale simulation metadata reference."
