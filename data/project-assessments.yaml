@@ -17,6 +17,24 @@ assessments:
     weaknesses: "Not a workflow/HPC orchestration or plugin metadata layer."
     relation_to_opensciflow: "Potential workflow tool endpoint/reference."
     contact_priority: low
+  - name: OpenFold
+    type: "open AlphaFold2-style structure prediction implementation"
+    strengths: "Open implementation with strong relevance to reproducible structure-prediction workflows."
+    weaknesses: "GPU, database, model weight, and environment requirements can be heavy."
+    relation_to_opensciflow: "Good structure-prediction manifest reference after the first MD-analysis MVP."
+    contact_priority: medium
+  - name: Boltz
+    type: "biomolecular interaction structure model"
+    strengths: "Modern open biomolecular structure/interaction model with active repository."
+    weaknesses: "Model-weight provenance, hardware requirements, and output interpretation need careful metadata."
+    relation_to_opensciflow: "Strong candidate for a model-focused plugin manifest."
+    contact_priority: medium
+  - name: Chai-1
+    type: "biomolecular structure prediction model"
+    strengths: "Open model repository and clear relevance to biomolecular structure workflows."
+    weaknesses: "Requires careful handling of weights, citations, inputs, and result limitations."
+    relation_to_opensciflow: "Useful comparison target for structure-model manifest fields."
+    contact_priority: medium
   - name: OpenAI deep research
     type: "general research agent"
     strengths: "Strong general research and reporting interface."
@@ -221,6 +239,18 @@ assessments:
     weaknesses: "Environment, GPU, and weight-management friction."
     relation_to_opensciflow: "Example AI model plugin and high-priority feedback target."
     contact_priority: high
+  - name: RFdiffusion
+    type: "protein backbone generation/design model"
+    strengths: "Important protein-design model with direct workflow-template relevance."
+    weaknesses: "Scientific misuse, design validation, and model/environment setup need careful boundaries."
+    relation_to_opensciflow: "Future protein-design workflow candidate after analysis/reporting MVP."
+    contact_priority: medium
+  - name: ProteinMPNN
+    type: "protein sequence design model"
+    strengths: "Focused protein design task and relatively compact plugin-manifest candidate."
+    weaknesses: "Designed sequences require structural and experimental validation; not a standalone proof of function."
+    relation_to_opensciflow: "Good future example for sequence-design manifest and report limitations."
+    contact_priority: medium
   - name: RDKit
     type: "cheminformatics toolkit"
     strengths: "Essential chemistry toolkit used across workflows."
@@ -274,6 +304,12 @@ assessments:
     strengths: "Widely used for atomistic setup/run/analyze workflows."
     weaknesses: "Not AI-agent or manifest focused."
     relation_to_opensciflow: "Future atomistic workflow integration target."
+    contact_priority: medium
+  - name: MACE
+    type: "machine-learning interatomic potential"
+    strengths: "Important AI-for-materials model family and atomistic inference target."
+    weaknesses: "Scientific validity depends on training domain, model choice, and uncertainty handling."
+    relation_to_opensciflow: "Future materials model manifest target for weights, device, and applicability metadata."
     contact_priority: medium
   - name: MatGL
     type: "materials graph learning library"

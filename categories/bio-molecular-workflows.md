@@ -15,10 +15,14 @@ The first reference demo is a protein molecular dynamics stability analysis work
 | MDTraj | Trajectory analysis library | Fallback/alternative analysis plugin | Medium |
 | ColabFold | Protein structure workflow | Structure prediction plugin/template reference | Medium |
 | ESM / ESMFold | Protein language model | Future model plugin target | Low |
+| OpenFold | AlphaFold2-style implementation | Structure-prediction manifest reference | Medium |
+| Boltz | Biomolecular interaction model | Model-focused manifest candidate | Medium |
+| Chai-1 | Biomolecular structure model | Structure-model metadata comparison target | Medium |
+| RFdiffusion | Protein backbone generation model | Future protein-design workflow reference | Medium |
+| ProteinMPNN | Protein sequence design model | Future sequence-design plugin candidate | Medium |
 
 ## Open questions
 
 - Which trajectory-analysis outputs are minimally useful for a first report?
 - How should force-field and simulation setup provenance be recorded?
 - How should reports prevent overclaiming from RMSD/RMSF/Rg metrics?
-

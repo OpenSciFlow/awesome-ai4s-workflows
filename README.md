@@ -20,6 +20,7 @@ Early curated draft. Project descriptions may be incomplete. Maintainers of list
 - [HPC and local execution tools](categories/hpc-local-execution.md)
 - [Package and container systems](categories/package-containers.md)
 - [Model hubs and model zoos](categories/model-hubs.md)
+- [Scientific models](categories/scientific-models.md)
 - [Reproducibility and provenance tools](categories/reproducibility.md)
 - [Chemistry and materials workflow tools](categories/chemistry-materials.md)
 - [中文摘要](zh/README.md)
@@ -32,7 +33,7 @@ The machine-readable seed list is in:
 data/projects.yaml
 ```
 
-The current seed list includes 40+ related projects across agents, workflow systems, molecular simulation, HPC, packaging, reproducibility, model hubs, chemistry, and materials science.
+The current seed list includes 50+ related projects across agents, workflow systems, molecular simulation, HPC, packaging, reproducibility, model hubs, scientific models, chemistry, and materials science.
 
 Detailed assessment metadata is in:
 
@@ -77,7 +78,7 @@ If your project is listed inaccurately, please open an issue with:
 - Nextflow / Snakemake / Galaxy / nf-core community members
 - AiiDA / Parsl / FireWorks workflow experts
 - BioImage Model Zoo maintainers
-- DiffDock / ChemCrow / Biomni-style model or agent authors
+- DiffDock / Boltz / ProteinMPNN / MACE / ChemCrow / Biomni-style model or agent authors
 
 ## Contact priority definition
 

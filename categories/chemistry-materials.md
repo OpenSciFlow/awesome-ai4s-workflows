@@ -13,6 +13,7 @@ The first OpenSciFlow implementation should remain protein-computing focused. Ch
 | atomate2 | Materials workflow library | Future multi-domain workflow expansion target | Medium |
 | pymatgen | Materials analysis toolkit | Future materials plugin dependency/reference | Low |
 | ASE | Atomistic simulation environment | Future atomistic workflow integration target | Medium |
+| MACE | Machine-learning interatomic potential | Future materials model manifest target | Medium |
 | MatGL | Materials graph learning library | Future AI materials plugin example | Low |
 
 ## Open questions
@@ -20,4 +21,3 @@ The first OpenSciFlow implementation should remain protein-computing focused. Ch
 - Which chemistry workflows are small enough for a second OpenSciFlow demo?
 - How should docking workflows represent input preparation and uncertainty?
 - Which materials workflows best demonstrate local/HPC execution metadata?
-

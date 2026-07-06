@@ -14,6 +14,21 @@ projects:
     domain: structural-biology
     url: https://deepmind.google/science/alphafold/
     relation: "Important tool endpoint/reference for structural biology workflows."
+  - name: OpenFold
+    category: structure-prediction
+    domain: structural-biology
+    url: https://github.com/aqlaboratory/openfold
+    relation: "Open AlphaFold2-style implementation; useful structure-prediction manifest reference."
+  - name: Boltz
+    category: biomolecular-structure-model
+    domain: structural-biology
+    url: https://github.com/jwohlwend/boltz
+    relation: "Open biomolecular interaction model family; useful manifest target for structure/interaction prediction."
+  - name: Chai-1
+    category: biomolecular-structure-model
+    domain: structural-biology
+    url: https://github.com/chaidiscovery/chai-lab
+    relation: "Open biomolecular structure prediction model; useful comparison point for model-weight and citation metadata."
   - name: OpenAI deep research
     category: general-research-agent
     domain: general-research
@@ -184,6 +199,16 @@ projects:
     domain: molecular-docking
     url: https://github.com/gcorso/DiffDock
     relation: "Example AI docking plugin."
+  - name: RFdiffusion
+    category: protein-design-model
+    domain: protein-design
+    url: https://github.com/RosettaCommons/RFdiffusion
+    relation: "Protein backbone generation/design model; important future workflow-template and safety-boundary reference."
+  - name: ProteinMPNN
+    category: protein-design-model
+    domain: protein-design
+    url: https://github.com/dauparas/ProteinMPNN
+    relation: "Protein sequence design model; compact candidate for a future plugin manifest and workflow template."
   - name: RDKit
     category: cheminformatics
     domain: chemistry
@@ -229,6 +254,11 @@ projects:
     domain: materials-science
     url: https://wiki.fysik.dtu.dk/ase/
     relation: "Future atomistic simulation workflow target."
+  - name: MACE
+    category: materials-ai
+    domain: materials-science
+    url: https://github.com/ACEsuit/mace
+    relation: "Machine-learning interatomic potential; useful future manifest target for model weights and atomistic inference."
   - name: MatGL
     category: materials-ai
     domain: materials-science

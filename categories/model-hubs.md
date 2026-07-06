@@ -13,9 +13,12 @@ OpenSciFlow can learn from these projects, but its scope is different: executabl
 | DiffDock | AI docking model | Example AI model plugin and feedback target | High |
 | MatGL | Materials graph learning library | Future AI materials plugin example | Low |
 
+For individual scientific models, see also:
+
+- [Scientific models](scientific-models.md)
+
 ## Open questions
 
 - What model metadata is missing from current science workflow execution records?
 - How should plugin manifests record model weights, checksums, and licenses?
 - How should generated reports cite models automatically?
-
