@@ -473,3 +473,27 @@ assessments:
     weaknesses: "Domain-specific and later-stage for OpenSciFlow."
     relation_to_opensciflow: "Future AI materials plugin example."
     contact_priority: low
+  - name: Uni-Mol
+    type: "3D molecular representation model"
+    strengths: "Relevant molecular pretraining and downstream modeling framework with direct chemistry workflow relevance."
+    weaknesses: "Model weights, task-specific checkpoints, and applicability domains need careful metadata before execution."
+    relation_to_opensciflow: "Future manifest target for molecular property, docking, and representation workflows."
+    contact_priority: medium
+  - name: Chemprop
+    type: "molecular property prediction toolkit"
+    strengths: "Widely used message-passing neural network package for molecular property prediction."
+    weaknesses: "Prediction outputs can be overinterpreted without dataset, uncertainty, and applicability-domain context."
+    relation_to_opensciflow: "Useful workflow candidate for property-prediction manifests and report limitations."
+    contact_priority: medium
+  - name: NequIP
+    type: "equivariant interatomic potential framework"
+    strengths: "Important atomistic ML framework for training and deploying equivariant interatomic potentials."
+    weaknesses: "Scientific validity depends strongly on training data, model version, uncertainty, and simulation setting."
+    relation_to_opensciflow: "Strong future manifest target for atomistic model training/inference and HPC metadata."
+    contact_priority: medium
+  - name: Allegro
+    type: "scalable equivariant interatomic potential model"
+    strengths: "Useful large-scale atomistic model reference in the NequIP ecosystem."
+    weaknesses: "LAMMPS/ASE integration, model provenance, and HPC environment metadata need explicit handling."
+    relation_to_opensciflow: "Future wrapper/HPC example candidate for atomistic simulation workflows."
+    contact_priority: medium

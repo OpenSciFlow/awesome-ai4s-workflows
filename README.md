@@ -49,6 +49,12 @@ Assessment fields include:
 - `relation_to_opensciflow`
 - `contact_priority`
 
+Validate the landscape data:
+
+```bash
+python scripts/validate_landscape.py
+```
+
 ## Inclusion criteria
 
 Projects should have at least one of:
