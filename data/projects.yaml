@@ -19,6 +19,11 @@ projects:
     domain: structural-biology
     url: https://github.com/aqlaboratory/openfold
     relation: "Open AlphaFold2-style implementation; useful structure-prediction manifest reference."
+  - name: OmegaFold
+    category: structure-prediction
+    domain: structural-biology
+    url: https://github.com/HeliXonProtein/OmegaFold
+    relation: "Protein structure prediction model; useful historical/alternative structure-model metadata reference."
   - name: Uni-Fold
     category: structure-prediction
     domain: structural-biology
@@ -264,6 +269,21 @@ projects:
     domain: protein-ai
     url: https://github.com/facebookresearch/esm
     relation: "Protein model plugin target/reference."
+  - name: GENA-LM
+    category: genomic-language-model
+    domain: genomics
+    url: https://github.com/AIRI-Institute/GENA_LM
+    relation: "Genomic masked language model; useful sequence-model metadata reference."
+  - name: HyenaDNA
+    category: genomic-foundation-model
+    domain: genomics
+    url: https://github.com/HazyResearch/hyena-dna
+    relation: "Long-range genomic foundation model; useful model-weight and sequence-input metadata reference."
+  - name: Nucleotide Transformer
+    category: genomic-foundation-model
+    domain: genomics, transcriptomics
+    url: https://github.com/instadeepai/nucleotide-transformer
+    relation: "Foundation models for genomics and transcriptomics; useful model card and sequence workflow reference."
   - name: Hugging Face Hub
     category: model-hub
     domain: machine-learning
@@ -279,6 +299,31 @@ projects:
     domain: drug-discovery
     url: https://deepchem.io/
     relation: "Related toolkit and potential plugin source."
+  - name: REINVENT4
+    category: molecular-design-model
+    domain: molecular-design
+    url: https://github.com/MolecularAI/REINVENT4
+    relation: "AI molecular design tool for generation and optimization; useful generative chemistry workflow reference."
+  - name: AiZynthFinder
+    category: retrosynthesis
+    domain: chemistry
+    url: https://github.com/MolecularAI/aizynthfinder
+    relation: "Retrosynthetic planning tool; useful chemistry workflow and report-boundary reference."
+  - name: GuacaMol
+    category: generative-chemistry-benchmark
+    domain: molecular-generation
+    url: https://github.com/BenevolentAI/guacamol
+    relation: "Generative chemistry benchmark; useful evaluation metadata reference."
+  - name: MolBART
+    category: molecular-language-model
+    domain: molecular-generation
+    url: https://github.com/MolecularAI/MolBART
+    relation: "Archived pretrained SMILES transformation model; useful historical model metadata reference."
+  - name: Recursion GFlowNet
+    category: molecular-generation
+    domain: molecular-generation
+    url: https://github.com/recursionpharma/gflownet
+    relation: "GFlowNet library for graph and molecular data; useful generative model workflow reference."
   - name: atomate2
     category: materials-workflows
     domain: materials-science
@@ -294,6 +339,31 @@ projects:
     domain: materials-science
     url: https://wiki.fysik.dtu.dk/ase/
     relation: "Future atomistic simulation workflow target."
+  - name: MatterSim
+    category: materials-ai
+    domain: materials-science
+    url: https://github.com/microsoft/mattersim
+    relation: "Deep learning atomistic model across elements, temperatures, and pressures; useful interatomic-potential manifest target."
+  - name: AI2BMD
+    category: biomolecular-dynamics-ai
+    domain: biomolecular-simulation
+    url: https://github.com/microsoft/AI2BMD
+    relation: "AI-powered ab initio biomolecular dynamics simulation; future biomolecular simulation workflow reference."
+  - name: JMP
+    category: atomistic-property-model
+    domain: chemistry, materials-science
+    url: https://github.com/facebookresearch/JMP
+    relation: "Archived atomic property prediction model code; useful historical model metadata reference."
+  - name: Google DeepMind materials_discovery
+    category: materials-discovery-models
+    domain: materials-science
+    url: https://github.com/google-deepmind/materials_discovery
+    relation: "Materials discovery model/code reference; useful future materials workflow metadata target."
+  - name: MatCalc
+    category: materials-property-calculation
+    domain: materials-science
+    url: https://github.com/materialyzeai/matcalc
+    relation: "Materials property calculation library using potential energy surfaces; useful downstream workflow target."
   - name: MACE
     category: materials-ai
     domain: materials-science

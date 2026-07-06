@@ -23,6 +23,12 @@ assessments:
     weaknesses: "GPU, database, model weight, and environment requirements can be heavy."
     relation_to_opensciflow: "Good structure-prediction manifest reference after the first MD-analysis MVP."
     contact_priority: medium
+  - name: OmegaFold
+    type: "protein structure prediction model"
+    strengths: "Alternative structure-prediction model with simple model-focused relevance."
+    weaknesses: "Older update profile and likely lower priority than newer structure-prediction systems."
+    relation_to_opensciflow: "Historical/alternative structure-model metadata reference."
+    contact_priority: low
   - name: Uni-Fold
     type: "protein structure prediction platform"
     strengths: "Open platform for developing protein models beyond AlphaFold."
@@ -317,6 +323,24 @@ assessments:
     weaknesses: "Model/runtime setup and licensing need careful handling."
     relation_to_opensciflow: "Future model plugin target."
     contact_priority: low
+  - name: GENA-LM
+    type: "genomic masked language model"
+    strengths: "Active sequence-model repository for genomics."
+    weaknesses: "Workflow tasks and interpretation differ from protein-structure examples."
+    relation_to_opensciflow: "Useful sequence-model metadata reference for future genomics expansion."
+    contact_priority: medium
+  - name: HyenaDNA
+    type: "long-range genomic foundation model"
+    strengths: "Strong reference for long-context genomic sequence modeling."
+    weaknesses: "Research-code workflows may require careful task and benchmark framing."
+    relation_to_opensciflow: "Future genomics model manifest reference."
+    contact_priority: medium
+  - name: Nucleotide Transformer
+    type: "genomics and transcriptomics foundation model"
+    strengths: "Canonical public repository for nucleotide foundation models."
+    weaknesses: "License/model-weight terms and downstream interpretation need careful treatment."
+    relation_to_opensciflow: "Useful model card and sequence workflow metadata reference."
+    contact_priority: medium
   - name: Hugging Face Hub
     type: "model and dataset hub"
     strengths: "Strong model distribution and community ecosystem."
@@ -335,6 +359,36 @@ assessments:
     weaknesses: "Not primarily workflow/HPC metadata infrastructure."
     relation_to_opensciflow: "Potential plugin source and related toolkit."
     contact_priority: medium
+  - name: REINVENT4
+    type: "AI molecular design and optimization tool"
+    strengths: "Active molecular design tool with clear workflow relevance."
+    weaknesses: "Generated molecules require synthesis, filtering, safety, and experimental validation."
+    relation_to_opensciflow: "Strong future manifest/workflow candidate for generative chemistry."
+    contact_priority: medium
+  - name: AiZynthFinder
+    type: "retrosynthetic planning tool"
+    strengths: "Practical chemistry planning workflow with clear inputs and outputs."
+    weaknesses: "Retrosynthetic suggestions can be overinterpreted without feasibility and route validation."
+    relation_to_opensciflow: "Useful chemistry workflow/report-boundary reference."
+    contact_priority: medium
+  - name: GuacaMol
+    type: "generative chemistry benchmark"
+    strengths: "Benchmark reference for molecular generation objectives."
+    weaknesses: "Benchmark suite rather than execution-ready scientific model."
+    relation_to_opensciflow: "Evaluation metadata and benchmark-reporting reference."
+    contact_priority: low
+  - name: MolBART
+    type: "molecular language model"
+    strengths: "Relevant pretrained SMILES transformation model."
+    weaknesses: "Repository is archived, so treat as historical reference rather than active target."
+    relation_to_opensciflow: "Historical molecular-language-model metadata reference."
+    contact_priority: low
+  - name: Recursion GFlowNet
+    type: "GFlowNet library for graph and molecular data"
+    strengths: "Active generative modeling library for molecular graph data."
+    weaknesses: "Library-level scope may not map cleanly to one manifest."
+    relation_to_opensciflow: "Useful generative model workflow and provenance reference."
+    contact_priority: medium
   - name: atomate2
     type: "materials workflow library"
     strengths: "Strong domain workflow library in materials science."
@@ -352,6 +406,36 @@ assessments:
     strengths: "Widely used for atomistic setup/run/analyze workflows."
     weaknesses: "Not AI-agent or manifest focused."
     relation_to_opensciflow: "Future atomistic workflow integration target."
+    contact_priority: medium
+  - name: MatterSim
+    type: "deep learning atomistic model"
+    strengths: "Active interatomic-model repository across elements, temperatures, and pressures."
+    weaknesses: "Applicability domain, precision, and model-version metadata need careful handling."
+    relation_to_opensciflow: "Strong candidate for future atomistic model manifest fields."
+    contact_priority: medium
+  - name: AI2BMD
+    type: "AI-powered ab initio biomolecular dynamics simulation"
+    strengths: "Directly relevant to biomolecular simulation and AI-for-dynamics workflows."
+    weaknesses: "Scientific validity, computational cost, and interpretation need strong boundaries."
+    relation_to_opensciflow: "Future biomolecular dynamics workflow reference after MD-analysis MVP."
+    contact_priority: medium
+  - name: JMP
+    type: "atomic property prediction model"
+    strengths: "Relevant molecular-to-materials pretraining reference."
+    weaknesses: "Repository is archived; use as historical context rather than active outreach target."
+    relation_to_opensciflow: "Historical atomistic model metadata reference."
+    contact_priority: low
+  - name: Google DeepMind materials_discovery
+    type: "materials discovery model/code reference"
+    strengths: "High-profile materials discovery reference with public code."
+    weaknesses: "Repository scope and exact reusable workflow boundaries need careful review."
+    relation_to_opensciflow: "Future materials workflow and model metadata reference."
+    contact_priority: low
+  - name: MatCalc
+    type: "materials property calculation library"
+    strengths: "Downstream property-calculation layer for potential-energy-surface workflows."
+    weaknesses: "More workflow/library than standalone AI model."
+    relation_to_opensciflow: "Useful downstream workflow target for materials model outputs."
     contact_priority: medium
   - name: MACE
     type: "machine-learning interatomic potential"

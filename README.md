@@ -33,7 +33,7 @@ The machine-readable seed list is in:
 data/projects.yaml
 ```
 
-The current seed list includes 60+ related projects across agents, workflow systems, molecular simulation, HPC, packaging, reproducibility, model hubs, scientific models, chemistry, and materials science.
+The current seed list includes 75+ related projects across agents, workflow systems, molecular simulation, HPC, packaging, reproducibility, model hubs, scientific models, chemistry, and materials science.
 
 Detailed assessment metadata is in:
 
@@ -78,7 +78,7 @@ If your project is listed inaccurately, please open an issue with:
 - Nextflow / Snakemake / Galaxy / nf-core community members
 - AiiDA / Parsl / FireWorks workflow experts
 - BioImage Model Zoo maintainers
-- DiffDock / Boltz / ProteinMPNN / MACE / Protenix / GNINA / CHGNet / MatterGen / ChemCrow / Biomni-style model or agent authors
+- DiffDock / Boltz / ProteinMPNN / MACE / Protenix / GNINA / CHGNet / MatterGen / REINVENT4 / MatterSim / Nucleotide Transformer / ChemCrow / Biomni-style model or agent authors
 
 ## Contact priority definition
 
