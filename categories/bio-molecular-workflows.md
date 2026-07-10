@@ -6,7 +6,7 @@ The first reference demo is a protein molecular dynamics stability analysis work
 
 | Project | Type | Relation to OpenSciFlow | Contact priority |
 |---|---|---|---|
-| BioBB | Biomolecular workflow building blocks | Top feedback target for protein/MD workflow templates | High |
+| BioBB | Interoperable biomolecular workflow building blocks | Workflow-composition and metadata precedent; description reviewed by a maintainer | High |
 | BioSimSpace | Molecular simulation interoperability | Top feedback target for simulation plugin/workflow design | High |
 | GROMACS | Molecular dynamics engine | Core protein MD plugin target | Medium |
 | CHARMM-GUI | Molecular simulation setup platform | UX and setup workflow reference | Medium |

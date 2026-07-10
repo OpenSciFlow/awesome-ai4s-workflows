@@ -177,8 +177,8 @@ projects:
   - name: BioBB
     category: biomolecular-workflows
     domain: biomolecular-simulation
-    url: https://biobb.github.io/
-    relation: "High-priority related project for biomolecular workflows."
+    url: https://mmb.irbbarcelona.org/biobb/
+    relation: "Interoperable building blocks and example workflows; reference for inputs/outputs, environment, citation, license, and validation metadata."
   - name: BioSimSpace
     category: biomolecular-workflows
     domain: molecular-simulation
@@ -303,7 +303,7 @@ projects:
     category: molecular-design-model
     domain: molecular-design
     url: https://github.com/MolecularAI/REINVENT4
-    relation: "AI molecular design tool for generation and optimization; useful generative chemistry workflow reference."
+    relation: "AI molecular design and optimization tool; future manifests should be scoped to a concrete generative chemistry workflow."
   - name: AiZynthFinder
     category: retrosynthesis
     domain: chemistry

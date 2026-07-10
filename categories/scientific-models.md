@@ -39,7 +39,7 @@ These entries are related projects only. OpenSciFlow does not claim partnership 
 | EquiBind | Geometric deep-learning docking model | Docking-model metadata reference | Low |
 | TorchDrug | Drug-discovery machine-learning platform | Model/toolkit metadata reference | Low |
 | GT4SD | Generative Toolkit for Scientific Discovery | Generative model registry/workflow metadata reference | Medium |
-| REINVENT4 | AI molecular design and optimization tool | Generative chemistry workflow candidate | Medium |
+| REINVENT4 | AI molecular design and optimization tool | Workflow-scoped generative chemistry manifest candidate | Medium |
 | AiZynthFinder | Retrosynthetic planning tool | Chemistry planning workflow/report-boundary reference | Medium |
 | GuacaMol | Generative chemistry benchmark | Evaluation metadata reference | Low |
 | MolBART | Molecular language model | Archived historical molecular-language-model reference | Low |

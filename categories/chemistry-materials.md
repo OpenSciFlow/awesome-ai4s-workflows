@@ -14,7 +14,7 @@ The first OpenSciFlow implementation should remain protein-computing focused. Ch
 | DeepChem | Chemistry and biology ML toolkit | Potential plugin source and related toolkit | Medium |
 | TorchDrug | Drug-discovery machine-learning platform | Model/toolkit metadata reference | Low |
 | GT4SD | Generative Toolkit for Scientific Discovery | Generative model registry/workflow metadata reference | Medium |
-| REINVENT4 | AI molecular design and optimization tool | Generative chemistry workflow candidate | Medium |
+| REINVENT4 | AI molecular design and optimization tool | Workflow-scoped generative chemistry manifest candidate | Medium |
 | AiZynthFinder | Retrosynthetic planning tool | Chemistry planning workflow/report-boundary reference | Medium |
 | GuacaMol | Generative chemistry benchmark | Evaluation metadata reference | Low |
 | MolBART | Molecular language model | Archived historical molecular-language-model reference | Low |

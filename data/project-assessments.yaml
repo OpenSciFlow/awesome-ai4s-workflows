@@ -211,9 +211,9 @@ assessments:
     contact_priority: medium
   - name: BioBB
     type: "biomolecular simulation workflow building blocks"
-    strengths: "Very aligned with biomolecular workflow composition."
+    strengths: "Maintainer-reviewed description; strongly aligned with biomolecular workflow composition and explicit workflow metadata."
     weaknesses: "Specific ecosystem and conventions."
-    relation_to_opensciflow: "Top feedback target for protein/MD workflow templates."
+    relation_to_opensciflow: "Reference for composing protein/MD workflows and recording inputs, outputs, environment, citation, license, and validation."
     contact_priority: high
   - name: BioSimSpace
     type: "molecular simulation interoperability layer"
@@ -361,9 +361,9 @@ assessments:
     contact_priority: medium
   - name: REINVENT4
     type: "AI molecular design and optimization tool"
-    strengths: "Active molecular design tool with clear workflow relevance."
-    weaknesses: "Generated molecules require synthesis, filtering, safety, and experimental validation."
-    relation_to_opensciflow: "Strong future manifest/workflow candidate for generative chemistry."
+    strengths: "Classification and canonical repository confirmed by a maintainer; active tool with clear workflow relevance."
+    weaknesses: "Manifest fields and interpretation limits are workflow-dependent; model limitations require literature-backed treatment."
+    relation_to_opensciflow: "Future manifest candidate only after selecting one concrete generative chemistry workflow."
     contact_priority: medium
   - name: AiZynthFinder
     type: "retrosynthetic planning tool"
